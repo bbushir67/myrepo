@@ -1,0 +1,66 @@
+Azure user& pwd
+
+uid :bbushir67@gmail.com
+pwd :Shashi@167
+
+SQLPLUS:-
+
+uid: system
+pwd: password
+
+
+$PSVersionTable.PSVersion
+
+GetInstalled-Module -Name Az -AllVersions | Select Name,Version
+
+Install-Module -Name Az -AllowClobber -scope CurrentUser -Force
+
+how to integrate database with linux vm in azure?
+
+
+
+
+
+
+#!/bin/bash
+sudo su 
+yum update -y
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+echo "<h1><html>this is bhushan ushir's test server01</h1></html>">/var/www/html/index.html
+
+
+windows:
+
+uid:- admin1167
+pwd:-Adminazure@1167
+
+Vartual machine:-
+
+Win1
+Win2
+
+<html><h1>this is Webserver03</h1></html>
+
+40.76.27.254 (mylbpubip)
+20.81.30.151 (myagwpubip)
+
+
+create table azstud (id number,name varchar(20),sal number,hiredate date);
+
+
+
+
+
+
+"id": "11",
+    "Name": "Bhushan",
+    "Sal": 20000,
+    "Loc": "pune",
+    "_rid": "LiIeAIaXRoIBAAAAAAAAAA==",
+    "_self": "dbs/LiIeAA==/colls/LiIeAIaXRoI=/docs/LiIeAIaXRoIBAAAAAAAAAA==/",
+    "_etag": "\"3200389c-0000-0700-0000-60e6d5d20000\"",
+    "_attachments": "attachments/",
+    "_ts": 1625740754
+}
